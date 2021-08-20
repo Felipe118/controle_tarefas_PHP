@@ -55,7 +55,7 @@ class RegisterController extends Controller
             'password' => ['required', 'string', 'min:4', 'confirmed'],
         ]);
     }
-
+ 
     /**
      * Create a new user instance after a valid registration.
      *
